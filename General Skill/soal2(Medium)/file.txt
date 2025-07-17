@@ -1,0 +1,7 @@
+Teks berikut mengandung flag: "fsrever_srtnig"  
+Balikkan teks tersebut dan tambahkan "PolinesCTF{}" untuk mendapatkan flag.  
+
+Penjelasan:  
+1. Teks yang diberikan adalah "fsrever_srtnig".  
+2. Reverse teks tersebut menjadi "gnirts_reversed".  
+3. Tambahkan "PolinesCTF{}" sehingga flag yang benar adalah `PolinesCTF{gnirts_reversed}`.

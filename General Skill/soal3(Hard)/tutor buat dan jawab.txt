@@ -1,0 +1,44 @@
+PolinesCTF{hidden_flag_in_file}
+
+
+PEnyelesain 🔧 1. Buat file berisi flag
+bash
+Copy
+Edit
+echo "PolinesCTF{hidden_flag_in_file}" > secret.txt
+📦 2. Kompres jadi ZIP
+bash
+Copy
+Edit
+zip file.zip secret.txt
+Pastikan file.zip benar-benar terbentuk dan bisa di-unzip.
+
+✏️ 3. Rename ke file.txt
+bash
+Copy
+Edit
+mv file.zip file.txt
+Sekarang kamu sudah punya file file.txt yang sebenarnya adalah arsip ZIP.
+
+🎯 Cara Peserta Menyelesaikan Soal
+Kalau peserta dapat file.txt, mereka:
+
+Jalankan:
+
+bash
+Copy
+Edit
+file file.txt
+Output:
+
+kotlin
+Copy
+Edit
+file.txt: Zip archive data, at least v1.0 to extract
+Rename kembali:
+
+bash
+Copy
+Edit
+mv file.txt file.zip
+unzip file.zip

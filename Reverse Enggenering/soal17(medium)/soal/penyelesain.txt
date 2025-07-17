@@ -1,0 +1,31 @@
+🧩 Solusi
+Lakukan pemeriksaan awal pada file ELF:
+
+bash
+Copy
+Edit :
+file find_flag
+# Output: ELF 64-bit LSB executable, x86-64, ... not stripped (kalau belum di-strip)
+Gunakan strings untuk melihat apakah flag terlihat jelas:
+
+bash
+Copy
+Edit :
+strings find_flag | grep FLAG
+# Output: FLAG{REVERSE_ELF_123}
+
+
+
+ini soalnya 
+
+🔐 Soal CTF
+Kategori: Reverse Engineering
+Topik: ELF Binary Analysis
+Judul: Find the Hidden Flag
+🧠 Deskripsi:
+Kami telah menemukan file biner ELF mencurigakan dari sistem target. Tampaknya program ini meminta input dan akan mengeluarkan pesan spesial jika kamu memasukkan flag yang benar.
+
+Coba analisa file ELF berikut dan temukan flag tersembunyi di dalamnya.
+
+📎 File: find_flag
+(→ Disiapkan sebagai ELF binary 64-bit, bisa dibuat dengan script di bawah)

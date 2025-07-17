@@ -1,0 +1,1 @@
+buat venv, instal pip install pycryptodome, nyalakan venv source ./venv/bin/active

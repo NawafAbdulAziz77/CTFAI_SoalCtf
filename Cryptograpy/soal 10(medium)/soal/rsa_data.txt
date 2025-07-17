@@ -1,0 +1,4 @@
+
+Modulus n = 187
+Eksponen Publik e = 7
+Ciphertext c = 11

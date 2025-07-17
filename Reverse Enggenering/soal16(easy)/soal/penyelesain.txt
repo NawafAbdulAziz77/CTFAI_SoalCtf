@@ -1,0 +1,4 @@
+flag = "PolinesCTF{reverse_python_easy}"
+print("Cari flag yang tersembunyi!")
+
+chmod 644 dan nano

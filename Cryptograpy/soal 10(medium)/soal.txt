@@ -1,0 +1,41 @@
+📄 Output Soal
+Kategori: Cryptography
+Topik: RSA (Basic Math)
+Tingkat Kesulitan: Easy
+Nilai: 50
+
+Soal:
+Pesan berikut telah dienkripsi menggunakan algoritma RSA klasik. Kamu diberikan modulus n, eksponen publik e, dan ciphertext c. Tugasmu adalah mendekripsi ciphertext dan mendapatkan pesan asli.
+
+Hint: Faktorkan n menjadi p dan q, lalu gunakan itu untuk mencari φ(n) dan menghitung private key d.
+
+Diberikan:
+Modulus n = 187
+
+Eksponen Publik e = 7
+
+Ciphertext c = 11
+
+✅ Cara Penyelesaian:
+Faktorkan n = 187 menjadi p = 11 dan q = 17
+
+Hitung totient:
+
+markdown
+Copy
+Edit
+φ(n) = (p-1)*(q-1) = 10 * 16 = 160
+Hitung d sebagai invers dari e mod φ(n):
+
+lua
+Copy
+Edit
+d ≡ e⁻¹ mod φ(n) → d ≡ 7⁻¹ mod 160 → d = 23
+Dekripsi:
+
+lua
+Copy
+Edit
+m ≡ cᵈ mod n → m ≡ 11²³ mod 187 = 88
+Konversi m = 88 ke ASCII → 'X' (jika diinginkan), tapi di sini hasil 88 adalah angka yang jadi jawaban.
+

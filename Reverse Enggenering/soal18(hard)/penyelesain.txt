@@ -1,0 +1,28 @@
+print(bytes.fromhex('50 6f 6c 69 6e 65 73 43 54 46 7b 6a 73 5f 72 65 76 65 72 73 65 5f 66 74 77 7d'.replace(' ', '')).decode())
+
+
+atau pake hex to string
+
+
+
+📄 Output Soal:
+
+### Kategori: Reverse Engineering  
+Topik: JavaScript Obfuscation  
+Soal: Berikut adalah kode JavaScript yang telah diobfuscate. Tugas Anda adalah mendekode kode tersebut untuk menemukan flag yang tersembunyi. Gunakan tools seperti beautifier atau deobfuscator online untuk mempermudah proses.  
+
+Hint: Gunakan beautifier atau deobfuscator online untuk merapikan kode, lalu cari variabel atau fungsi yang mungkin menyimpan flag.  
+
+Tingkat Kesulitan: Medium  
+Nilai: 150  
+Ctf: PolinesCTF{js_reverse_ftw}  
+
+
+
+Penjelasan:  
+1. Kode di atas adalah kode JavaScript yang diobfuscate menggunakan teknik sederhana.  
+2. Flag disimpan dalam bentuk string yang dienkripsi dalam array `_0x3f5b`.  
+3. Gunakan tools seperti [JavaScript Beautifier](https://beautifier.io/) atau [deobfuscator.io](https://deobfuscate.io/) untuk merapikan kode dan menemukan flag yang tersembunyi.  
+4. Flag akan terlihat setelah kode di-deobfuscate.  
+
+Flag: `PolinesCTF{js_reverse_ftw}`

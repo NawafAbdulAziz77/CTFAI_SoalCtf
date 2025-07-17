@@ -1,0 +1,34 @@
+📄 Output Soal:
+
+Berikut adalah soal CTF baru dengan kategori Reverse Engineering, topik Python, dan tingkat kesulitan easy:
+
+---
+
+Kategori: Reverse Engineering  
+Topik: Python  
+Soal: Terdapat sebuah file Python yang telah dikompilasi menjadi file bytecode (.pyc). Tugasmu adalah membongkar file tersebut dan menemukan flag yang tersembunyi di dalamnya.  
+Hint: Gunakan tools seperti `uncompyle6` atau `decompyle3` untuk mendapatkan kode sumber aslinya.  
+Tingkat Kesulitan: easy  
+Nilai: 50  
+Ctf: PolinesCTF{reverse_python_easy}  
+
+
+
+### Penjelasan:
+1. File .pyc: File ini adalah hasil kompilasi dari kode Python. Peserta perlu menggunakan tools seperti `uncompyle6` atau `decompyle3` untuk mendapatkan kode sumber aslinya.
+2. Flag: Flag tersembunyi di dalam kode sumber yang telah didekompilasi.
+3. Tingkat Kesulitan: Easy, karena peserta hanya perlu menggunakan tools yang sudah tersedia untuk mendapatkan flag.
+
+### Contoh Kode Sumber Python yang Dikompilasi:
+```python
+# challenge.py
+flag = "PolinesCTF{reverse_python_easy}"
+print("Cari flag yang tersembunyi!")
+```
+
+File `challenge.pyc` dapat dibuat dengan menjalankan perintah berikut:
+```bash
+python -m compileall challenge.py
+```
+
+Selamat mencoba!

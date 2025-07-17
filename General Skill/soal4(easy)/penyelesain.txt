@@ -1,0 +1,28 @@
+🧑‍💻 Cara Peserta Menyelesaikan Soal
+Jalankan:
+
+bash
+Copy
+Edit
+ls -l flag.txt
+Temukan bahwa permission ---------- → tidak ada akses
+
+Ubah permission:
+
+bash
+Copy
+Edit
+chmod 644 flag.txt
+atau kalau mau read-only:
+
+bash
+Copy
+Edit
+chmod +r flag.txt
+Lalu baca isinya:
+
+bash
+Copy
+Edit
+
+cat flag.txt

@@ -1,0 +1,2 @@
+Isi file ini hanya dapat dibaca oleh pemilik atau admin.  
+Flag: PolinesCTF{F1l3_p3rm15SiOn_m@5t4r}

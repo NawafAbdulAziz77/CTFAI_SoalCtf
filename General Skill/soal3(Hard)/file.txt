@@ -1,0 +1,4 @@
+Ini adalah file teks biasa.  
+Tidak ada yang istimewa di sini.  
+Tapi coba cari lebih dalam!  
+Flag tersembunyi di sini: PolinesCTF{hidden_flag_in_file}

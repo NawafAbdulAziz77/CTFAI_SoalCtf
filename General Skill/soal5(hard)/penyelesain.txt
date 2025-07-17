@@ -1,0 +1,4 @@
+┌──(kali㉿kali)-[~/Downloads/SoalCTF/General Skill/soal5(hard)]
+└─$ python decripted.py encrypted_message.txt
+This is a secret message. The flag is: PolinesCTF{M4STER_PYTHON_COI}
+                                                                            
